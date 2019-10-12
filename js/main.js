@@ -88,7 +88,6 @@ $(function($){
 
 	$(window).on('scroll',function () {
 		let scrollTop = window.scrollY;
-		console.log(scrollTop);
 		if (scrollTop > 0){
 			header.addClass('olla-header--scrolled');
 		} else {
