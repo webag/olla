@@ -1,0 +1,46 @@
+.s-lk{
+	padding: 20px 0 40px 0;
+}
+
+
+//lk-nav
+.lk-nav{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 40px;
+
+	a{
+		position: relative;
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 20px;
+		padding-left: 60px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		&:before{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0.6em;
+			height: 3px;
+			width: 40px;
+			border-radius: 2px;
+			background: currentColor;
+			transform-origin: right center;
+			transform: scaleX(0.4);
+		}
+
+		&.active{
+			color: $red;
+
+			&:before{
+				transform: none;
+			}
+		}
+	}
+}
+//lk-nav

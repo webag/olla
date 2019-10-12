@@ -1,0 +1,22 @@
+$breakpoints: (
+	'xxl': (min-width: 1680px),
+	'xl': (min-width: 1400px),
+	'l': (min-width: 1024px),
+	'm': (min-width: 768px),
+	's': (min-width: 660px),
+	'xs': (min-width: 480px),
+	'xxs': (max-width: 350px),
+);
+
+$font: 'Exo 2', '-apple-system','HelveticaNeue', Arial, sans-serif;
+
+$container_width: 860px;
+
+$gutter: 16px;
+
+$black: #343434;
+$gray-text: #8E8E8E;
+$gray-line: #E5E5E5;
+$red: #F23A4F;
+
+$shadow: 3px 0px 25px 0 rgba(0, 0, 0, 0.05);

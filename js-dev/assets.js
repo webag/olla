@@ -1,0 +1,1 @@
+//@prepros-append vendors/jquery.fancybox.min.js
