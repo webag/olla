@@ -104,10 +104,30 @@
 	align-items: center;
 	font-size: 18px;
 	font-weight: 600;
+	line-height: 1;
+	white-space: nowrap;
+	max-width: calc(100% - 40px);
 
 	i{
 		font-size: 16px;
 		margin-right: 10px;
+		flex-shrink: 0;
+	}
+
+	span{
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+.top-actions__search{
+	font-size: 17px;
+	flex-shrink: 0;
+	margin-left: 10px;
+
+	&:active{
+		color: $red;
 	}
 }
 //s-top-actions

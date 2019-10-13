@@ -26,7 +26,7 @@
 	<meta property="og:image" content="/img/og.jpg">
 	<!-- og -->
 
-	<link href="css/main.css" rel="stylesheet">
+	<link href="css/main.css?v=2" rel="stylesheet">
 </head>
 
 <body>
