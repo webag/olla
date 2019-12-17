@@ -53,7 +53,7 @@
 			</div>
 			<div class="main-menu__group">
 				<a href="/categories.php" class="main-menu__link">Заказать Доставку</a>
-				<a href="#" class="main-menu__link">Лучшие Заведения Города</a>
+				<a href="/rests.php" class="main-menu__link">Лучшие Заведения Города</a>
 				<a href="#" class="main-menu__link">Отменить Заказ</a>
 				<a href="#" class="main-menu__link">Впечатления</a>
 			</div>

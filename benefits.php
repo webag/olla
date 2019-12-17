@@ -14,7 +14,7 @@
 				<img src="/img/benefits/delivery.svg" alt="delivery">
 				<strong>Заказать Доставку</strong>
 			</a>
-			<a href="#" class="benefits__item">
+			<a href="/rests.php" class="benefits__item">
 				<img src="/img/benefits/cup.svg" alt="cup">
 				<strong>Лучшие Заведения Города</strong>
 			</a>
