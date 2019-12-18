@@ -3,6 +3,7 @@
 @import 'base/placeholders';
 
 @import 'vendors/jquery.fancybox';
+@import 'vendors/flickity';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -15,6 +16,7 @@
 
 @import 'modules/header';
 @import 'modules/quantity';
+@import 'modules/stars';
 
 @import 'pages/languages';
 @import 'pages/benefits';
@@ -22,3 +24,4 @@
 @import 'pages/categories';
 @import 'pages/category-items';
 @import 'pages/rests';
+@import 'pages/rest';

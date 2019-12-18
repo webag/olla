@@ -45,16 +45,52 @@
 	padding: 20px 0;
 }
 
+.restitems-cat{
+	margin-bottom: 30px;
+}
+
 .restitems-list{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 40px;
+	grid-template-columns: 150px 150px;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+	justify-content: center;
+	@include res(xxs){
+		grid-column-gap: 15px;
+		grid-template-columns: 140px 140px;
+	}
+	@include res(s){
+		grid-template-columns: 150px 150px 150px;
+	}
+	@include res(m){
+		grid-template-columns: 150px 150px 150px 150px;
+	}
+	@include res(l){
+		grid-template-columns: 150px 150px 150px 150px 150px;
+	}
+}
+
+.restitems-list-two{
+	display: grid;
+	grid-template-columns: 150px 150px;
+	grid-gap: 20px;
+	justify-content: center;
+	@include res(xxs){
+		grid-gap: 15px;
+		grid-template-columns: 140px 140px;
+	}
 }
 
 .restitem{
-	width: 152px;
+
 	.btn{
 		width: 100%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.stars{
+		margin-bottom: 10px;
 	}
 }
 
@@ -73,6 +109,6 @@
 }
 
 .restitem__title{
-	margin-bottom: 10px;
+	margin-bottom: 7px;
 }
 //s-restitems

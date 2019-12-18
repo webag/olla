@@ -99,3 +99,28 @@ $(function($){
 /***********************
 header menu END
 ***********************/
+
+
+/***********************
+rest BEGIN
+***********************/
+$(function($){
+	const restSlider = new Flickity( '.rest-slider', {
+		cellAlign: 'center',
+		prevNextButtons: false,
+		groupCells: true
+	});
+
+
+	$('.rest__nav a').on('click',function (e) {
+		e.preventDefault();
+		const needTab = $($(this).attr('href'));
+		$('.rest__nav a').removeClass('active');
+		$(this).addClass('active');
+		$('.rest__tab').removeClass('active');
+		needTab.addClass('active');
+	})
+});
+/***********************
+rest END
+***********************/

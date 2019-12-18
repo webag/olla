@@ -24,6 +24,12 @@ strong,b{
 	color: $red;
 }
 
+.link-line{
+	font-weight: 600;
+	color: $red;
+	border-bottom: 1px solid currentColor;
+}
+
 .link-icon{
 	display: inline-flex;
 	align-items: center;

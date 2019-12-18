@@ -1,0 +1,13 @@
+.stars{
+	display: flex;
+	font-size: 13px;
+
+	.i-star{
+		margin-right: 8px;
+		color: #FFDBDF;
+
+		&--full{
+			color: $red;
+		}
+	}
+}

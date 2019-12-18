@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'olla-icons';
 	src:
-		url('../fonts/olla-icons.ttf?6mlb91') format('truetype'),
-		url('../fonts/olla-icons.woff?6mlb91') format('woff'),
-		url('../fonts/olla-icons.svg?6mlb91#olla-icons') format('svg');
+		url('../fonts/olla-icons.ttf?6mlb92') format('truetype'),
+		url('../fonts/olla-icons.woff?6mlb92') format('woff'),
+		url('../fonts/olla-icons.svg?6mlb92#olla-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
@@ -24,6 +24,9 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-star:before {
+	content: "\e90c";
+}
 .i-search:before {
 	content: "\e900";
 }
