@@ -22,12 +22,22 @@ strong,b{
 .link{
 	font-weight: 600;
 	color: $red;
+
+	&:active{
+		-webkit-tap-highlight-color: transparent;
+		color: $black;
+	}
 }
 
 .link-line{
 	font-weight: 600;
 	color: $red;
 	border-bottom: 1px solid currentColor;
+
+	&:active{
+		-webkit-tap-highlight-color: transparent;
+		color: $black;
+	}
 }
 
 .link-icon{
@@ -38,6 +48,11 @@ strong,b{
 
 	i{
 		margin-left: 10px;
+	}
+
+	&:active{
+		-webkit-tap-highlight-color: transparent;
+		color: $black;
 	}
 }
 
@@ -55,6 +70,12 @@ h2,.h2{
 
 h3,.h3{
 	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+h4,.h4{
+	font-size: 16px;
 	font-weight: 600;
 	line-height: 1.2;
 }

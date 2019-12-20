@@ -1203,10 +1203,20 @@ strong, b {
   color: #F23A4F;
 }
 
+.link:active {
+  -webkit-tap-highlight-color: transparent;
+  color: #343434;
+}
+
 .link-line {
   font-weight: 600;
   color: #F23A4F;
   border-bottom: 1px solid currentColor;
+}
+
+.link-line:active {
+  -webkit-tap-highlight-color: transparent;
+  color: #343434;
 }
 
 .link-icon {
@@ -1224,6 +1234,11 @@ strong, b {
   margin-left: 10px;
 }
 
+.link-icon:active {
+  -webkit-tap-highlight-color: transparent;
+  color: #343434;
+}
+
 h1, .h1 {
   font-size: 25px;
   font-weight: bold;
@@ -1238,6 +1253,12 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h4, .h4 {
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -2686,4 +2707,106 @@ button::-moz-focus-inner {
 
 .rest__tab.active {
   display: block;
+}
+
+.rest-contacts__map {
+  height: 180px;
+  width: 100%;
+  border-radius: 26px;
+  background: #eee;
+  margin-bottom: 15px;
+}
+
+.rest-contacts__address {
+  display: block;
+  font-style: normal;
+  margin-bottom: 0.4em;
+}
+
+.rest-contacts__phone {
+  margin-bottom: 0.4em;
+}
+
+.rest-contacts__worktime {
+  margin-bottom: 0.4em;
+}
+
+.rest-btnwrap {
+  padding: 30px 16px;
+  text-align: center;
+}
+
+.rest-btnwrap .btn {
+  width: 100%;
+  max-width: 400px;
+}
+
+.rest__menu-photo {
+  border-radius: 15px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.rest__menu-link {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  color: #F23A4F;
+}
+
+.rest__menu-link i {
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.rest__menu-link:active {
+  -webkit-tap-highlight-color: transparent;
+  color: #343434;
+}
+
+.rest-review {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+
+.rest-review:last-child {
+  margin-bottom: 0;
+}
+
+.rest-review__photo {
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 70px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-right: 15px;
+}
+
+.rest-review__name {
+  margin-bottom: 4px;
+}
+
+.rest-review__time {
+  display: block;
+  font-size: 13px;
+  color: #8E8E8E;
+  margin-bottom: 4px;
+}
+
+.rest-review__text {
+  line-height: 1.3;
 }

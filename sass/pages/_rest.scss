@@ -141,4 +141,105 @@
 		display: block;
 	}
 }
+
+.rest-contacts{
+
+}
+
+.rest-contacts__map{
+	height: 180px;
+	width: 100%;
+	border-radius: 26px;
+	background: #eee;
+	margin-bottom: 15px;
+}
+
+.rest-contacts__address{
+	display: block;
+	font-style: normal;
+	margin-bottom: 0.4em;
+}
+
+.rest-contacts__phone{
+	margin-bottom: 0.4em;
+}
+
+.rest-contacts__worktime{
+	margin-bottom: 0.4em;
+}
+
+.rest-btnwrap{
+	padding: 30px $gutter;
+	text-align: center;
+
+	.btn{
+		width: 100%;
+		max-width: 400px;
+	}
+}
+
+.rest__menu-photo{
+	border-radius: 15px;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.rest__menu-link{
+	display: inline-flex;
+	align-items: center;
+	font-weight: 600;
+	color: $red;
+
+	i{
+		font-size: 28px;
+		margin-right: 10px;
+	}
+
+	&:active{
+		-webkit-tap-highlight-color: transparent;
+		color: $black;
+	}
+}
+
+
+.rest-reviews-list{
+
+}
+
+.rest-review{
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 35px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.rest-review__photo{
+	display: block;
+	flex-shrink: 0;
+	width: 70px;
+	height: auto;
+	border-radius: 15px;
+	box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.1);
+	margin-right: 15px;
+}
+
+.rest-review__name{
+	margin-bottom: 4px;
+}
+
+.rest-review__time{
+	display: block;
+	font-size: 13px;
+	color: $gray-text;
+	margin-bottom: 4px;
+}
+
+.rest-review__text{
+	line-height: 1.3;
+}
 //s-rest

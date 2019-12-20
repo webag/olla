@@ -124,3 +124,51 @@ $(function($){
 /***********************
 rest END
 ***********************/
+
+
+/***********************
+ Geo BEGIN
+ ***********************/
+function initRestMap() {
+	const mapTag = document.querySelector('#restmap');
+	const coords = mapTag.dataset.coords.split(",");
+	const normalIcon = {
+		url: '/img/rest/pin.svg',
+		scaledSize: new google.maps.Size(25, 31)
+	};
+	const mapOptions = {
+		center: new google.maps.LatLng(coords[0], coords[1]),
+		zoom: 14,
+		disableDefaultUI: true,
+		zoomControl: true,
+		zoomControlOptions: {
+			position: google.maps.ControlPosition.LEFT_CENTER
+		},
+		scrollwheel: false,
+	};
+	const geomap = new google.maps.Map(document.getElementById("restmap"), mapOptions);
+
+	const marker = new google.maps.Marker({
+		position: new google.maps.LatLng(coords[0], coords[1]),
+		map: geomap,
+		icon: normalIcon,
+		optimized: false,
+		zIndex: 1,
+		activeState: false
+	});
+}
+
+$(function($){
+	function addScript( src ) {
+		let s = document.createElement('script');
+		s.setAttribute('src', src);
+		document.body.appendChild(s);
+	}
+
+	if ($('#restmap').length){
+		addScript('');
+	}
+});
+/***********************
+ Geo END
+ ***********************/
