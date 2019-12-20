@@ -4,6 +4,9 @@
 	max-width: 100%;
 	will-change: transform, opacity;
 	overflow: visible !important;
+	background: #FFF;
+	border-radius: 30px;
+	padding: 30px 35px;
 }
 
 .fancybox-slide--current {
@@ -25,6 +28,7 @@
 .fancybox-close-small, .fancybox-slide--image .fancybox-close-small, .fancybox-slide--video .fancybox-close-small, .fancybox-slide--iframe .fancybox-close-small,.fancybox-slide--html .fancybox-close-small {
 	@include cross();
 	opacity: 1;
+	display: none;
 }
 
 .fancybox-slide--video,.fancybox-slide--html,.fancybox-slide--iframe {
@@ -37,3 +41,38 @@
 .fancybox-content{
 	overflow: visible !important;
 }
+
+
+//modal-confirm
+.modal-confirm{
+	text-align: center;
+}
+
+.modal-confirm__icon{
+	position: relative;
+	margin-bottom: 15px;
+	left: 5px;
+}
+
+.modal-confirm__title{
+	margin-bottom: 10px;
+}
+
+.modal-confirm__descr{
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+.modal-confirm__btns{
+	padding-top: 20px;
+
+	.btn{
+		width: 100%;
+		margin-bottom: 20px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+//modal-confirm

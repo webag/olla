@@ -105,12 +105,11 @@ header menu END
 rest BEGIN
 ***********************/
 $(function($){
-	const restSlider = new Flickity( '.rest-slider', {
+	$('.rest-slider').flickity({
 		cellAlign: 'center',
 		prevNextButtons: false,
 		groupCells: true
 	});
-
 
 	$('.rest__nav a').on('click',function (e) {
 		e.preventDefault();
@@ -157,18 +156,27 @@ function initRestMap() {
 		activeState: false
 	});
 }
-
-$(function($){
-	function addScript( src ) {
-		let s = document.createElement('script');
-		s.setAttribute('src', src);
-		document.body.appendChild(s);
-	}
-
-	if ($('#restmap').length){
-		addScript('');
-	}
-});
 /***********************
  Geo END
  ***********************/
+
+
+/***********************
+rest order BEGIN
+***********************/
+$(function($){
+	const transferInput = $('[name=has-transfer]');
+	const transferToggleBlock = $('.transfer-toggle-block');
+
+	transferInput.on('change',function () {
+		console.log(transferInput);
+		if (transferInput[0].checked === true){
+			transferToggleBlock.slideDown();
+		} else {
+			transferToggleBlock.slideUp();
+		}
+	})
+});
+/***********************
+rest order END
+***********************/

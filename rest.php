@@ -92,7 +92,7 @@
 		</div>
 
 		<div class="rest-btnwrap">
-			<a href="#" class="btn">Забронировать</a>
+			<a href="/rest-order.php" class="btn">Забронировать</a>
 		</div>
 
 	</div>

@@ -42,3 +42,16 @@ button::-moz-focus-inner {
 .btn-right{
 	text-align: right;
 }
+
+.btn--outline{
+	border: 2px solid $red;
+	color: $red;
+	background-color: #FFF;
+
+	&:active{
+		background-color: #FFF;
+		box-shadow: -3px 6px 10px 0 rgba(0, 0, 0, 0.2);
+		color: $black;
+		border: 2px solid $black;
+	}
+}

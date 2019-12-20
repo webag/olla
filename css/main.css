@@ -1352,6 +1352,7 @@ label {
   padding: 10px 0;
   overflow: visible;
   transition: all 0.3s ease;
+  background: #FFF;
 }
 
 .input-text::-webkit-input-placeholder {
@@ -1429,8 +1430,12 @@ label {
   display: block;
   position: relative;
   cursor: pointer;
-  margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.style-checkbox:active {
+  -webkit-tap-highlight-color: transparent;
 }
 
 .style-checkbox input {
@@ -1456,9 +1461,10 @@ label {
 
 .style-checkbox span:before {
   content: '';
-  width: 20px;
-  height: 20px;
-  border: 2px solid #353434;
+  width: 22px;
+  height: 22px;
+  background: #FFDBDF;
+  border-radius: 3px;
   position: absolute;
   left: 0;
   top: 0;
@@ -1466,13 +1472,14 @@ label {
 }
 
 .style-checkbox span:after {
-  content: '';
-  width: 20px;
-  height: 20px;
-  background: #353434;
+  content: '\e908';
+  font-family: "olla-icons";
+  color: #F23A4F;
   position: absolute;
-  left: 0;
-  top: 0;
+  font-size: 16px;
+  line-height: 1;
+  left: 3px;
+  top: 3px;
   z-index: 2;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -1529,12 +1536,28 @@ button::-moz-focus-inner {
   text-align: right;
 }
 
+.btn--outline {
+  border: 2px solid #F23A4F;
+  color: #F23A4F;
+  background-color: #FFF;
+}
+
+.btn--outline:active {
+  background-color: #FFF;
+  box-shadow: -3px 6px 10px 0 rgba(0, 0, 0, 0.2);
+  color: #343434;
+  border: 2px solid #343434;
+}
+
 .modal {
   display: none;
   width: 500px;
   max-width: 100%;
   will-change: transform, opacity;
   overflow: visible !important;
+  background: #FFF;
+  border-radius: 30px;
+  padding: 30px 35px;
 }
 
 .fancybox-bg {
@@ -1553,6 +1576,7 @@ button::-moz-focus-inner {
   border-radius: 50%;
   border: none;
   opacity: 1;
+  display: none;
 }
 
 @media (min-width: 660px) {
@@ -1618,6 +1642,38 @@ button::-moz-focus-inner {
 
 .fancybox-content {
   overflow: visible !important;
+}
+
+.modal-confirm {
+  text-align: center;
+}
+
+.modal-confirm__icon {
+  position: relative;
+  margin-bottom: 15px;
+  left: 5px;
+}
+
+.modal-confirm__title {
+  margin-bottom: 10px;
+}
+
+.modal-confirm__descr {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.modal-confirm__btns {
+  padding-top: 20px;
+}
+
+.modal-confirm__btns .btn {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal-confirm__btns .btn:last-child {
+  margin-bottom: 0;
 }
 
 .olla-header {
@@ -2809,4 +2865,57 @@ button::-moz-focus-inner {
 
 .rest-review__text {
   line-height: 1.3;
+}
+
+.s-rest-order {
+  padding-bottom: 30px;
+}
+
+.rest-order-header {
+  margin-bottom: 40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rest-order-header__photo {
+  display: block;
+  width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.rest-order-header__info {
+  display: inline-block;
+  background: #FFF;
+  padding: 30px 15px;
+  border-radius: 20px;
+  box-shadow: 4px 6px 41px rgba(0, 0, 0, 0.13);
+  margin-top: -140px;
+  max-width: 200px;
+}
+
+.transfer-note {
+  display: block;
+  color: #F23A4F;
+  opacity: 0.6;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+.transfer-toggle-block {
+  display: none;
+}
+
+.transfer-toggle-block .input-group {
+  margin-bottom: 0;
+}
+
+.rest-order-form {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -13,6 +13,7 @@ label {
 	padding: 10px 0;
 	overflow: visible;
 	transition: all 0.3s ease;
+	background: #FFF;
 
 	&::placeholder {
 		font-size: 15px;
@@ -68,8 +69,12 @@ label {
 	display: block;
 	position: relative;
 	cursor: pointer;
-	margin-bottom: 15px;
-	font-size: 12px;
+	font-size: 15px;
+	font-weight: 600;
+
+	&:active{
+		-webkit-tap-highlight-color: transparent;
+	}
 
 	input {
 		opacity: 0;
@@ -97,9 +102,10 @@ label {
 
 		&:before {
 			content: '';
-			width: 20px;
-			height: 20px;
-			border: 2px solid #353434;
+			width: 22px;
+			height: 22px;
+			background: #FFDBDF;
+			border-radius: 3px;
 			position: absolute;
 			left: 0;
 			top: 0;
@@ -107,13 +113,14 @@ label {
 		}
 
 		&:after {
-			content: '';
-			width: 20px;
-			height: 20px;
-			background: #353434;
+			content: '\e908';
+			font-family: $font-icons;
+			color: $red;
 			position: absolute;
-			left: 0;
-			top: 0;
+			font-size: 16px;
+			line-height: 1;
+			left: 3px;
+			top: 3px;
 			z-index: 2;
 			opacity: 0;
 			transition: opacity 0.3s ease;
