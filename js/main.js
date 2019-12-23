@@ -180,3 +180,26 @@ $(function($){
 /***********************
 rest order END
 ***********************/
+
+
+/***********************
+related slider BEGIN
+***********************/
+$(function($){
+	$('.fancy-cart').fancybox({
+		selector: '',
+		touch: false,
+		afterShow : function( instance, current ) {
+			$('.cart-related-slider').flickity({
+				pageDots: false,
+				cellAlign: 'left',
+				contain: true,
+				imagesLoaded: true,
+				groupCells: true
+			});
+		}
+	});
+});
+/***********************
+related slider END
+***********************/
