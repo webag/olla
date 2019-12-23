@@ -15,34 +15,40 @@
 	<div class="container">
 
 		<div class="restitems-list">
-			<div class="restitem">
+			<div class="flowers-item">
 				<a href="#"><img src="/img/flowers/item-1.jpg" class="restitem__photo"></a>
-				<a href="#"><div class="h3 restitem__title">Красные Розы</div></a>
+				<a href="#"><div class="h3 flowers-item__title">Красные Розы</div></a>
+				<div class="catitem__price">15300 <small>₽</small></div>
 				<a href="#" class="btn btn--small">Купить</a>
 			</div>
-			<div class="restitem">
-				<a href="#"><img src="/img/flowers/item-2.jpg" class="restitem__photo"></a>
-				<a href="#"><div class="h3 restitem__title">Пионы</div></a>
+			<div class="flowers-item">
+				<a href="#"><img src="/img/flowers/item-2.jpg" class="flowers-item__photo"></a>
+				<a href="#"><div class="h3 flowers-item__title">Пионы</div></a>
+				<div class="catitem__price">15300 <small>₽</small></div>
 				<a href="#" class="btn btn--small">Купить</a>
 			</div>
-			<div class="restitem">
+			<div class="flowers-item">
 				<a href="#"><img src="/img/flowers/item-1.jpg" class="restitem__photo"></a>
-				<a href="#"><div class="h3 restitem__title">Красные Розы</div></a>
+				<a href="#"><div class="h3 flowers-item__title">Красные Розы</div></a>
+				<div class="catitem__price">15300 <small>₽</small></div>
 				<a href="#" class="btn btn--small">Купить</a>
 			</div>
-			<div class="restitem">
-				<a href="#"><img src="/img/flowers/item-2.jpg" class="restitem__photo"></a>
-				<a href="#"><div class="h3 restitem__title">Пионы</div></a>
+			<div class="flowers-item">
+				<a href="#"><img src="/img/flowers/item-2.jpg" class="flowers-item__photo"></a>
+				<a href="#"><div class="h3 flowers-item__title">Пионы</div></a>
+				<div class="catitem__price">15300 <small>₽</small></div>
 				<a href="#" class="btn btn--small">Купить</a>
 			</div>
-			<div class="restitem">
+			<div class="flowers-item">
 				<a href="#"><img src="/img/flowers/item-1.jpg" class="restitem__photo"></a>
-				<a href="#"><div class="h3 restitem__title">Красные Розы</div></a>
+				<a href="#"><div class="h3 flowers-item__title">Красные Розы</div></a>
+				<div class="catitem__price">15300 <small>₽</small></div>
 				<a href="#" class="btn btn--small">Купить</a>
 			</div>
-			<div class="restitem">
-				<a href="#"><img src="/img/flowers/item-2.jpg" class="restitem__photo"></a>
-				<a href="#"><div class="h3 restitem__title">Пионы</div></a>
+			<div class="flowers-item">
+				<a href="#"><img src="/img/flowers/item-2.jpg" class="flowers-item__photo"></a>
+				<a href="#"><div class="h3 flowers-item__title">Пионы</div></a>
+				<div class="catitem__price">15300 <small>₽</small></div>
 				<a href="#" class="btn btn--small">Купить</a>
 			</div>
 		</div>

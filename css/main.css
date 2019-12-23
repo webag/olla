@@ -2665,6 +2665,7 @@ button::-moz-focus-inner {
 }
 
 .cart-related {
+  display: block;
   width: 50%;
   padding: 0 10px;
   -webkit-flex-shrink: 0;
@@ -2702,6 +2703,29 @@ button::-moz-focus-inner {
   display: block;
   line-height: 1.1;
   margin-bottom: 2px;
+}
+
+.flowers-item .btn {
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.flowers-item .catitem__price {
+  margin-bottom: 4px;
+}
+
+.flowers-item__photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 4px 7px 12px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.flowers-item__title {
+  margin-bottom: 4px;
 }
 
 .s-restitems-header {

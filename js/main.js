@@ -186,17 +186,19 @@ rest order END
 related slider BEGIN
 ***********************/
 $(function($){
+	let cartRelatedSlider = $('.cart-related-slider');
 	$('.fancy-cart').fancybox({
 		selector: '',
 		touch: false,
 		afterShow : function( instance, current ) {
-			$('.cart-related-slider').flickity({
+			cartRelatedSlider.flickity({
 				pageDots: false,
 				cellAlign: 'left',
 				contain: true,
 				imagesLoaded: true,
 				groupCells: true
 			});
+			cartRelatedSlider.flickity('resize');
 		}
 	});
 });

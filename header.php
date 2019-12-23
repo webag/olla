@@ -26,7 +26,7 @@
 	<meta property="og:image" content="/img/og.jpg">
 	<!-- og -->
 
-	<link href="css/main.css?v=4" rel="stylesheet">
+	<link href="css/main.css?v=<?=rand(0, 99999)?>" rel="stylesheet">
 </head>
 
 <body>
