@@ -2548,6 +2548,22 @@ button::-moz-focus-inner {
   margin-right: 15px;
 }
 
+.cart-btn-order {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cart-btn__price {
+  margin-left: auto;
+}
+
 .cart-header {
   display: -webkit-flex;
   display: -ms-flexbox;

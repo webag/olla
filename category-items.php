@@ -168,7 +168,7 @@
 </section>
 
 
-<button class="btn cart-btn fancy-cart" data-src="#modal-cart"><i class="i-cart"></i>Корзина</button>
+<button class="btn cart-btn fancy-cart" data-src="#modal-cart"><i class="i-cart"></i>Корзина <span class="cart-btn__price">15300 <small>₽</small></span></button>
 
 
 <div class="cart modal-bottom" id="modal-cart">
@@ -265,7 +265,7 @@
 	</div>
 
 	<div class="form-btnwrap">
-		<button class="btn">Заказать</button>
+		<button class="btn cart-btn-order">Заказать <span class="cart-btn__price">15300 <small>₽</small></span></button>
 	</div>
 
 </div>

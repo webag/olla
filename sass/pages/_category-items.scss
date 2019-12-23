@@ -196,6 +196,16 @@
 	}
 }
 
+.cart-btn-order{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cart-btn__price{
+	margin-left: auto;
+}
+
 
 //cart
 .cart-header{
