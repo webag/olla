@@ -12,7 +12,7 @@
 			<a href="/category-flowers.php" class="cat" style="background-image: url(/img/cats/flowers.jpg)">
 				<strong>Цветы, Подарки</strong>
 			</a>
-			<a href="#" class="cat" style="background-image: url(/img/cats/sweets.jpg)">
+			<a href="/category-sweets.php" class="cat" style="background-image: url(/img/cats/sweets.jpg)">
 				<strong>Восточные Сладости</strong>
 			</a>
 			<a href="#" class="cat" style="background-image: url(/img/cats/apteka.jpg)">
