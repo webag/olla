@@ -10,7 +10,7 @@
 </section>
 
 
-<section class="s-restitems-header">
+<section class="s-catitems-header">
 	<div class="container">
 		<div class="restitems-header" style="background-image: url(/img/sweets/head.jpg)">
 			<h1 class="restitems-header__title">Восточные сладости</h1>
