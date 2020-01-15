@@ -37,5 +37,8 @@
 <script src="js/assets.js?v=<?=rand(0, 99999)?>" type="text/javascript" ></script>
 <script src="js/main.js?v=<?=rand(0, 99999)?>" type="text/javascript" ></script>
 
+
+<script src="//code-ya.jivosite.com/widget/foMQfCZNhh" async></script>
+
 	</body>
 </html>
