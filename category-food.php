@@ -13,22 +13,22 @@
 <section class="s-categories">
 	<div class="container">
 		<div class="cat-grid">
-			<a href="/category-items.php" class="cat" style="background-image: url(/img/food/pizza.png)">
+			<a href="/category-rests.php" class="cat" style="background-image: url(/img/food/pizza.png)">
 				<strong>Пицца</strong>
 			</a>
-			<a href="/category-items.php" class="cat" style="background-image: url(/img/food/sea.jpg)">
+			<a href="/category-rests.php" class="cat" style="background-image: url(/img/food/sea.jpg)">
 				<strong class="cat__smalltext">Морепродукты</strong>
 			</a>
-			<a href="/category-items.php" class="cat" style="background-image: url(/img/food/rolls.jpg)">
+			<a href="/category-rests.php" class="cat" style="background-image: url(/img/food/rolls.jpg)">
 				<strong>Роллы</strong>
 			</a>
-			<a href="/category-items.php" class="cat" style="background-image: url(/img/cats/fruits.jpg)">
+			<a href="/category-rests.php" class="cat" style="background-image: url(/img/cats/fruits.jpg)">
 				<strong>Фрукты</strong>
 			</a>
-			<a href="/category-items.php" class="cat" style="background-image: url(/img/food/kfc.jpg)">
+			<a href="/category-rests.php" class="cat" style="background-image: url(/img/food/kfc.jpg)">
 				<strong>KFC</strong>
 			</a>
-			<a href="/category-items.php" class="cat" style="background-image: url(/img/food/mcd.jpg)">
+			<a href="/category-rests.php" class="cat" style="background-image: url(/img/food/mcd.jpg)">
 				<strong>McDonalds</strong>
 			</a>
 		</div>

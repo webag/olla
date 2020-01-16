@@ -3,7 +3,7 @@
 
 <section class="s-top-actions">
 	<div class="container top-actions">
-		<a href="category-food.php" class="top-actions__back"><i class="i-left"></i><span>Еда</span></a>
+		<a href="category-rests.php" class="top-actions__back"><i class="i-left"></i><span>KFC</span></a>
 		<i class="i-search top-actions__search"></i>
 	</div>
 </section>
@@ -12,7 +12,7 @@
 <section class="s-catitems-header">
 	<div class="container">
 		<div class="catitems-header" style="background-image: url(/img/cat/header.jpg)">
-			<h1 class="catitems-header__title">Морепродукты</h1>
+			<h1 class="catitems-header__title">KFC</h1>
 			<div class="catitems-header__delivery">
 				<i class="i-delivery"></i>
 				<strong>Доставка 40 мин - 1 час</strong>
