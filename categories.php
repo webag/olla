@@ -9,10 +9,10 @@
 				<strong>Еда</strong>
 				<i class="i-down cat__arrow"></i>
 			</a>
-			<a href="/category-flowers-shops.php" class="cat" style="background-image: url(/img/cats/flowers.jpg)">
+			<a href="/category-flowers-shops.php" class="cat" style="background-image: url(/img/cats/flowers.jpg?v=1)">
 				<strong>Цветы, Подарки</strong>
 			</a>
-			<a href="/category-sweets.php" class="cat" style="background-image: url(/img/cats/sweets.jpg)">
+			<a href="/category-sweets.php" class="cat" style="background-image: url(/img/cats/sweets.jpg?v=1)">
 				<strong>Восточные Сладости</strong>
 			</a>
 			<a href="#" class="cat" style="background-image: url(/img/cats/apteka.jpg)">
