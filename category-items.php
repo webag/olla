@@ -11,7 +11,7 @@
 
 <section class="s-catitems-header">
 	<div class="container">
-		<div class="catitems-header" style="background-image: url(/img/cat/header.jpg)">
+		<div class="catitems-header" style="background-image: url(/img/cat/header-2.jpg)">
 			<h1 class="catitems-header__title">KFC</h1>
 			<div class="catitems-header__delivery">
 				<i class="i-delivery"></i>

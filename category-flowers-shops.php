@@ -13,11 +13,11 @@
 <section class="s-categories">
 	<div class="container">
 		<div class="cat-grid">
-			<a href="/category-items.php" class="cat" style="background-image: url(/img/cats/rest1.jpg)">
-				<strong>Pizza Hut</strong>
+			<a href="/category-flowers.php" class="cat" style="background-image: url(/img/cats/rest3.jpg)">
+				<strong>Магазин цветов</strong>
 			</a>
-			<a href="/category-items.php" class="cat" style="background-image: url(/img/cats/rest2.jpg)">
-				<strong>KFC</strong>
+			<a href="/category-flowers.php" class="cat" style="background-image: url(/img/cats/rest3.jpg)">
+				<strong>Магазин цветов 2</strong>
 			</a>
 		</div>
 	</div>

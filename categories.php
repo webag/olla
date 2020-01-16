@@ -9,7 +9,7 @@
 				<strong>Еда</strong>
 				<i class="i-down cat__arrow"></i>
 			</a>
-			<a href="/category-flowers.php" class="cat" style="background-image: url(/img/cats/flowers.jpg)">
+			<a href="/category-flowers-shops.php" class="cat" style="background-image: url(/img/cats/flowers.jpg)">
 				<strong>Цветы, Подарки</strong>
 			</a>
 			<a href="/category-sweets.php" class="cat" style="background-image: url(/img/cats/sweets.jpg)">
