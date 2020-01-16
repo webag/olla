@@ -13,7 +13,7 @@
 <section class="s-catitems-header">
 	<div class="container">
 		<div class="restitems-header" style="background-image: url(/img/flowers/head.jpg)">
-			<h1 class="restitems-header__title">Цветы</h1>
+			<h1 class="restitems-header__title">Цветочный магазин</h1>
 		</div>
 	</div>
 </section>
